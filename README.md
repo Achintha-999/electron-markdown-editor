@@ -57,9 +57,10 @@ electron-markdown-editor/
 
 📸 Screenshots
 Editor Interface
-<img alt="Editor Screenshot" src="https://via.placeholder.com/800x400?text=Editor+Screenshot">
+Editor Interface
+![Editor Screenshot](https://via.placeholder.com/800x400?text=Editor+Screenshot)
 Live Preview
-<img alt="Preview Screenshot" src="https://via.placeholder.com/800x400?text=Preview+Screenshot">
+![Preview Screenshot](https://via.placeholder.com/800x400?text=Preview+Screenshot)
 🤝 Contributing
 Contributions are welcome!
 Feel free to open issues or submit pull requests to improve the project.
