@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Notes</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="toolbar">
+      <button id="new-btn">New</button>
+      <button id="open-btn">Open</button>
+      <button id="save-btn">Save</button>
+      <button id="preview-btn">Toggle Preview</button>
+      <button id="about-btn">About</button>
+    </div>
+    <div class="editor-container">
+      <textarea id="editor" placeholder="Write your markdown here..."></textarea>
+      <div id="preview" class="hidden"></div>
+    </div>
+  </div>
+  <div class="status-bar">
+    <span class="file-path" id="file-path">Untitled</span>
+    <span class="modified-indicator" id="modified-indicator"></span>
+  </div>
+  <div class="app-footer">
+    <div class="social-links"></div>
+    <a href="https://github.com/Achintha-999" target="_blank" class="social-link github">
+        <img src="./images/github.png" alt="Author" class="footer-photo">
+        <span>Achintha-999</span>
+    </a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <div class="author-info">
+      <img src="./images/image2.png" alt="Author" class="footer-photo">
+      <span>Created by Achintha-999</span>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+</body>
+</html>

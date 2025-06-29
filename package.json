@@ -1,0 +1,13 @@
+{
+  "name": "markdown-notes",
+  "version": "1.0.0",
+  "author": "Achintha-999",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "devDependencies": {
+    "electron": "^latest"
+  }
+}

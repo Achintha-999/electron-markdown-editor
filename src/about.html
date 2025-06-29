@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+                         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .about-container {
+            text-align: center;
+        }
+        .author-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            display: block;
+            border: 3px solid #3498db;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .version {
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        .author-name {
+            font-size: 1.2em;
+            margin: 15px 0;
+            color: #2c3e50;
+        }
+        .close-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .close-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+       
+        <img src="./images/image2.png" class="author-photo" alt="Author Photo">
+        
+        <h1>Markdown Notes</h1>
+        <div class="version">Version 1.0.0</div>
+        
+        <div class="author-name">Created by <strong>Achintha-999</strong></div>
+        
+        <p>A simple markdown notes application built with Electron.js</p>
+        
+        <button class="close-btn" id="close-btn">Close</button>
+    </div>
+
+    <script>
+        document.getElementById('close-btn').addEventListener('click', () => {
+            window.close();
+        });
+    </script>
+</body>
+</html>
