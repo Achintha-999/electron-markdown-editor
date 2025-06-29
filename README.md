@@ -57,9 +57,14 @@ electron-markdown-editor/
 
 📸 Screenshots
 Editor Interface
+
 ![Editor Screenshot](assets/image2.png)
+
 Live Preview
+
 ![Preview Screenshot](assets/image1.png)
+
+
 🤝 Contributing
 Contributions are welcome!
 Feel free to open issues or submit pull requests to improve the project.
