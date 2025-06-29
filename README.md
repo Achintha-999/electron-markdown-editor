@@ -1,6 +1,7 @@
 # Electron Markdown Editor
 
 ![Electron Markdown Editor Logo](https://skillicons.dev/icons?i=electron)
+
 *A lightweight, cross-platform desktop application for creating and managing Markdown notes.*
 
 ---
