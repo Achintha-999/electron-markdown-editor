@@ -20,6 +20,7 @@ function createWindow() {
     }
   });
 
+
   mainWindow.loadFile('src/index.html');
 
   // Open dev tools if in development
